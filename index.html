@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Inloggen</title>
+</head>
+<body>
+    <div class="align-column">
+        <main>
+            <h2>Inloggen</h2>
+            <div id="invalid-feedback" style="display:none;"></div>
+            <div id="login-window">
+                <!-- Login form -->
+                <form id="login-form" method="POST" action="/logged_in.html">
+                    <label for="email">Gebruikersnaam of e-mailadres</label>
+                    <input id="email" type="text" placeholder="" autofocus />
+                    <label for="password">Wachtwoord</label>
+                    <input id="password" type="password" placeholder="" />
+                    <!-- Password eye -->
+                    <i class="fas fa-eye-slash" id="toggle-password"></i>
+                    <button id="submit" type="submit">Aanmelden</button>
+                </form>
+                <hr />
+                <button id="sign-up">Account maken</button>
+                <a id="pass-forgot" href="javascript:void(0)">Wachtwoord vergeten?</a>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="javascript:void(0)">Taal</a></li>
+                <li><a href="javascript:void(0)">Help</a></li>
+                <li><a href="javascript:void(0)">Privacy</a></li>
+                <li><a href="javascript:void(0)">Voorwaarden</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

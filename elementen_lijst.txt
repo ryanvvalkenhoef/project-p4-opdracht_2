@@ -1,0 +1,11 @@
+Benodigde elementen voor inlogpagina:
+- Koptekst boven het invulvenster
+- Eventueel een gepaste afbeelding
+- Invulvelden voor e-mailadres/telefoonnummer/gebruikersnaam
+- Een invulveld voor wachtwoord (verborgen), evt. met oogje
+- Feedback voor errors of invalide invoer, middels tooltips of container
+- Een knop 'Inloggen' of 'Aanmelden', en een link 'Wachtwoord vergeten?'
+- Een knop 'Nieuw account maken' of link 'Nog geen account? Klik hier'
+- Mogelijkheid tot maken van zakelijk account, indien van toepassing
+- Voorbehoud over akkoord gaan met beleid bij aanmelden via andere diensten
+- Footer-menu onderaan het inlogvenster (met Taal, Help, Privacy en Voorwaarden)
